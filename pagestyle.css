@@ -1,4 +1,16 @@
 /* This is an test css */
+* {
+box-sizing: border-box;
+}
+.main {
+
+}
+.menu a {
+ 
+}
+.main {
+
+}
 
 h1{
 text-align:center;
