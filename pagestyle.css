@@ -2,19 +2,34 @@
 * {
 box-sizing: border-box;
 }
-.main {
-
+.center {
+text-align:center;
+color:#ffffff;
+background-color:gray;
+border:2px solid gray;
+padding:2px;
 }
-.menu a {
- 
+.left {
+ text-align:left;
+color:blue;
+boreder:2px solid gray;
+padding:2px;
+width:20%;
+height:100%;
 }
-.main {
+.right {
+text-align:right;
+color:blue;
+border:2px solid gray;
+padding:2px;
+}
+.botom{
 
 }
 
 h1{
 text-align:center;
-color:black;
+color:#ffaabb;
 background-color:green;
 border:2px solid blue;
 padding:2px;
