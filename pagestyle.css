@@ -1,37 +1,38 @@
 /* This is an test css */
 * {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 .center {
-text-align:center;
-color:#ffffff;
-background-color:gray;
-border:2px solid gray;
-padding:2px;
+    text-align: center;
+    color: hsl(229, 65%, 56%);
+    background-color: rgb(206, 84, 84);
+    border: 2px solid rgb(161, 38, 38);
+    padding: 2px;
 }
+
 .left {
- text-align:left;
-color:blue;
-boreder:2px solid gray;
-padding:2px;
-width:20%;
-height:100%;
+    text-align: left;
+    color: blue;
+    boreder: 2px solid gray;
+    padding: 2px;
+    width: 20%;
+    height: 100%;
 }
+
 .right {
-text-align:right;
-color:blue;
-border:2px solid gray;
-padding:2px;
-}
-.botom{
-
+    text-align: right;
+    color: blue;
+    border: 2px solid gray;
+    padding: 2px;
 }
 
-h1{
-text-align:center;
-color:#ffaabb;
-background-color:green;
-border:2px solid blue;
-padding:2px;
-}
+.botom {}
 
+h1 {
+    text-align: center;
+    color: #ffaabb;
+    background-color: green;
+    border: 2px solid blue;
+    padding: 2px;
+}
