@@ -1,6 +1,7 @@
 /* This is an test css */
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
+background-color:#004499;
 }
 
 ul{
@@ -8,7 +9,7 @@ list-style-type:none;
 margin:0;
 padding:0;
 overflow:hidden;
-background-color:#444444;
+background-color:none;
 }
 li a{
 display:block;
@@ -30,3 +31,6 @@ background-color:#001133;
 float:right;
 }
 
+#heading_menu{
+font-size:1.5vw;
+}
