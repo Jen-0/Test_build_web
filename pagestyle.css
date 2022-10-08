@@ -3,36 +3,26 @@
     box-sizing: border-box;
 }
 
-.center {
-    text-align: center;
-    color: hsl(229, 65%, 56%);
-    background-color: rgb(206, 84, 84);
-    border: 2px solid rgb(161, 38, 38);
-    padding: 2px;
+.main {
+background-color:#006bff;
+float:left;
+width:50%;   
+padding:20px;
 }
 
 .left {
-    text-align: left;
-    color: blue;
-    boreder: 2px solid gray;
-    padding: 2px;
-    width: 20%;
-    height: 100%;
+background-color:#006bff;
+float:left;
+width:20%;
+padding:20px;
+   
 }
 
-.right {
-    text-align: right;
-    color: blue;
-    border: 2px solid gray;
-    padding: 2px;
+.right { 
+background-color:#006bff; 
+float:right; 
+width:30%;
+padding:20px;
 }
 
-.botom {}
 
-h1 {
-    text-align: center;
-    color: #ffaabb;
-    background-color: green;
-    border: 2px solid blue;
-    padding: 2px;
-}
