@@ -3,26 +3,30 @@
     box-sizing: border-box;
 }
 
-.main {
-background-color:#006bff;
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#444444;
+}
+li a{
+display:block;
+text-align:center;
+color:white;
+padding:20px;
+text-decoration:none;
+}
+
+li{
 float:left;
-width:50%;   
-padding:20px;
 }
 
-.left {
-background-color:#006bff;
-float:left;
-width:20%;
-padding:20px;
-   
+li a:hover{
+background-color:#001133;
 }
 
-.right { 
-background-color:#006bff; 
-float:right; 
-width:30%;
-padding:20px;
+#login{
+float:right;
 }
-
 
