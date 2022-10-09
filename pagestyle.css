@@ -1,2 +1,67 @@
-/* This is css file */
+/* My style sheet */
+*{
+box-sizing: border-box;
+}
 
+
+#heading_menu {
+width: 100%;
+}
+
+#heading_menu ul{
+float: left;
+margin: 0;
+padding: 0;
+width: 100%;
+overflow: hidden;
+background-color: #404040;
+}
+
+#heading_menu ul li{
+float: left;
+list-style-type: none;
+padding: 0px;
+}
+
+#heading_menu li a{
+float: left;
+padding: 7px;
+color: #ffffff;
+display: block;
+width: 100%;
+text-decoration: none;
+}
+
+#heading_menu li a:hover{
+background-color:#000000;
+text-decoration: none;
+}
+
+#left_align{
+float: right;
+}
+
+.left_side{
+width: 20%;
+text-align: left;
+background-color: gray;
+}
+.left_side ul{
+list-style-type: none;
+}
+
+.left_side ul a{
+color: #000000;
+text-decoration: none;
+background-color: green;
+width: 100%;
+margin-top: 7px;
+paddin: 8px;
+}
+
+
+.left_side ul a:hover{
+background-color: blue;
+width: 100%;
+padding: 2px;
+}
