@@ -28,7 +28,6 @@ float: left;
 padding: 7px;
 color: #ffffff;
 display: block;
-width: 100%;
 text-decoration: none;
 }
 
@@ -37,7 +36,7 @@ background-color:#000000;
 text-decoration: none;
 }
 
-#left_align{
+#heading_menu #left_align{
 float: right;
 }
 
@@ -45,9 +44,15 @@ float: right;
 width: 20%;
 text-align: left;
 background-color: gray;
+margin-top: 7px;
+}
+.main_content{
+float: left;
+width: 70%;
 }
 .left_side ul{
 list-style-type: none;
+
 }
 
 .left_side ul a{
@@ -55,7 +60,7 @@ color: #000000;
 text-decoration: none;
 background-color: green;
 width: 100%;
-margin-top: 7px;
+
 paddin: 8px;
 }
 
@@ -63,5 +68,17 @@ paddin: 8px;
 .left_side ul a:hover{
 background-color: blue;
 width: 100%;
+padding: 2px;
+}
+
+
+
+
+
+
+.end{
+width: 100%;
+background-color: #404040;
+text-align: center;
 padding: 2px;
 }
