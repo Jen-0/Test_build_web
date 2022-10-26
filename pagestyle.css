@@ -5,7 +5,7 @@ box-sizing: border-box;
 
 
 #heading_menu {
-width: 100%;
+width:auto;
 }
 
 #heading_menu ul{
@@ -40,7 +40,7 @@ text-decoration: none;
 float: right;
 }
 
-.left_side{
+div.left_side{
 width: 20%;
 text-align: left;
 background-color: gray;
@@ -50,11 +50,14 @@ margin-top: 7px;
 float: left;
 width: 70%;
 }
-.left_side ul{
+div.left_side ul{
 list-style-type: none;
 
 }
-
+div.left_side {
+    float: left;
+    padding: 7px;
+}
 .left_side ul a{
 color: #000000;
 text-decoration: none;
@@ -71,13 +74,19 @@ width: 100%;
 padding: 2px;
 }
 
+div.main_content {
+    overflow: auto;
+    float: bottom;
+    padding: 7px;
+}
 
 
 
 
 
 .end{
-width: 100%;
+width: auto;
+margin-top: 1000px;
 background-color: #404040;
 text-align: center;
 padding: 2px;
